@@ -36,8 +36,6 @@ fi
 echo 'source $HOME/.bashrc' >> $HOME/.bash_profile
 . $HOME/.bash_profile
 
-
-
 apt update && apt install unzip -y
 echo -e '\n\e[42mInstall software\e[0m\n' && sleep 1
 rm -rf $HOME/kyve
